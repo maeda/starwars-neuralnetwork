@@ -1,7 +1,5 @@
 FROM maedabr/torch-rnn
 
-RUN mkdir /code
+RUN mkdir -p /code/data
+ADD . /code/data
 
-WORKDIR /code
-
-RUN git clone https://github.com/maedabr/starwars-neuralnetwork.git data
