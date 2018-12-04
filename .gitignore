@@ -1,1 +1,4 @@
 *.txt
+cookie
+*.t7
+.DS_Store
